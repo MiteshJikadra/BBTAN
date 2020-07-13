@@ -8,10 +8,7 @@ public class ScoreManager : MonoBehaviour
 {
     public Text topscore;
     public int highScore1 = 0;
-    private void Awake()
-    {
-       
-    }
+   
     private void Start()
     {
         LoadData();

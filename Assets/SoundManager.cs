@@ -13,18 +13,9 @@ public class SoundManager : MonoBehaviour
     private void Awake()
     {
         Sm = this;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
         Audio = GetComponent<AudioSource>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+     
     public void brickTouchSound()
     {
         Audio.PlayOneShot(audio1);

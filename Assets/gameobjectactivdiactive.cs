@@ -16,18 +16,7 @@ public class gameobjectactivdiactive : MonoBehaviour
     {
         GAD = this;
     }
-    //public GameObject gameovercanvas;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
     public void active()
     {
         gamecontroller.SetActive(true);

@@ -19,16 +19,7 @@ public class BrickMoveController : MonoBehaviour
     {
         BMC = this;
     }
-    void Start()
-    {
-        //hasMoved = false;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     public void BricksMove()
     {
         //i = j;
